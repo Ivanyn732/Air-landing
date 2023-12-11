@@ -18,8 +18,7 @@
   }
 
   &--close {
-    mask: url(../images/logo/icon-close.svg);
-    background: $main-text-title;
+    background-image: url(../images/logo/icon-close.svg);
     margin-bottom: 24px;
   }
 }

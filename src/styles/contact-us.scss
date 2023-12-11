@@ -71,8 +71,6 @@
   height: 32px;
   width: 32px;
   margin-bottom: 80px;
-  background: $white-color;
-  mask-size: cover;
 
   @include hover(transform, scale(1.5));
 
@@ -81,26 +79,28 @@
   }
 
   &__facebook {
-    mask: url(../images/logo/facebook.svg);
+    background-image: url(../images/logo/facebook.svg);
   }
 
   &__facebook:hover {
-    background: $footer-blue;
+    background-color: $footer-blue;
+    border-radius: 6px;
   }
 
   &__twiter {
-    mask: url(../images/logo/twitter.svg);
+    background-image: url(../images/logo/twitter.svg);
   }
 
   &__twiter:hover {
-    background: $footer-blue;
+    background-image: url(../images/logo/twitter-blue.svg);
   }
 
   &__instagram {
-    mask: url(../images/logo/instagram.svg);
+    background-image: url(../images/logo/instagram.svg);
   }
 
   &__instagram:hover {
-    background: $footer-blue;
+    background-color: $footer-blue;
+    border-radius: 6px;
   }
 }

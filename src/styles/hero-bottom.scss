@@ -2,7 +2,7 @@
   @include page-grid;
 
   @include on-desktop {
-  transform: translateY(-680);
+    transform: translateY(-680px);
   }
 }
 
